@@ -4,25 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon Redesign/Home</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
     <link rel="stylesheet" href="assets/styles/AmazonIndex.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    
     <body>
+        
         <!-- NAVBAR -->
         
         <!-- Top Navbar -->
-        <div class="top-bar"></div>
-        <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div class="top-bar">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                
+                <div class="top-left">
+                    <span class="material-symbols-outlined">location_on</span>
+                    
+                    <div class="location-text">
+                        <span class="big-text">Deliver to</span>
+                        <span class="text-light">Malta</span>
+                    </div>
+                </div>
+                
+                
+                <div class="top-right">
+                    <a href="">Location</a>
+                    <a href="">Language</a>
+                    <a href="">Help</a>
+                </div>
+            </div>
         </div>
-        <div class="top-left">
-            Deliver to Malta
-        </div>
-
-        <div class="top-right d-flex gap-3">
-        <a href="">Location</a>
-        <a href="">Language</a>
-        <a href="">Help</a>
-    </div>
         
         <!-- Main Navbar -->
         <nav class="navbar navbar-expand-lg bg-white px-4">
@@ -38,7 +52,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle all-btn d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
                                 <span class="material-symbols-outlined">menu</span>
-                                All
+                                <span>All</span>
                             </a>
                             <ul class="dropdown-menu dropdown-height">
                                 
@@ -104,6 +118,7 @@
             <!-- NAVBAR END -->
             
             
+            <!-- CAROUSEL START  -->
             <div class="row">
                 <div class="col-12 px-0">
                     <div id="carouselExample2" class="carousel slide">
@@ -129,89 +144,241 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-4 mx-5">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/images/masterOfPuppets.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Master of Puppets</h5>
-                            <p class="card-text">Master of Puppets is the third studio album by American heavy metal band Metallica, released on March 3, 1986, by Elektra Records. Recorded in Copenhagen, Denmark, at Sweet Silence Studios with producer Flemming Rasmussen, it is the band's final album to feature bassist Cliff Burton. While touring in support of Master of Puppets, he died on September 27, 1986, after the band's tour bus was involved in an accident in Dörarp, Sweden.</p>
-                            <a href="https://en.wikipedia.org/wiki/Master_of_Puppets" class="btn btn-primary w-100 mt-auto">Wiki</a>
+            
+            <!-- CAROUSEL END -->
+            
+            
+            <!-- ITEM SECTION START -->
+            
+            <section class="deals-container">
+                <div class="deals-wrapper">
+                    
+                    <div class="deals-header">
+                        <div>
+                            <h5>Popular Super Deals</h5>
+                            <p>Limited time offers at 
+                                <span class="break-line">amazing prices.</span>
+                            </p>
+                            <p>Don't miss out!</p>
+                        </div>
+                        
+                        <button class="view-more">View more</button>
+                    </div>
+                    
+                    <div class="deals-cards">
+                        
+                        <div class="card">
+                            <img src="assets/images/Google-Pixel-10.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">Google Pixel 10 Android Smartphone without...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€597.04</p>
+                                    <p class="old-price">€742.70</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="assets/images/DeLonghi-Magnifica.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">De'Longhi Magnifica S ECAM 22.110.B fully...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€266.74</p>
+                                    <p class="old-price">€395.74</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="assets/images/LEGO-Editions-Football.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">LEGO Editions Football Toy - 3D Model...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€88.94</p>
+                                    <p class="old-price">€79.99</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="assets/images/Anker-Nano-70W.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">Anker Nano 70W USB C Charger, 3-Port Power...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€29.70</p>
+                                    <p class="old-price">€49.57</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="assets/images/TORRAS-Precise-screen.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">TORRAS Precise for iPhone 17 Pro for...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€23.53</p>
+                                    <p class="old-price">€27.75</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="assets/images/Handheld-Steam-Cleaner.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">Handheld Steam Cleaner with 12-Piece Acce...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€55.99</p>
+                                    <p class="old-price">€79.99</p>
+                                    
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/images/vol3subliminalVerses.jpg" class="card-img-top" alt="...">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Vol 3: (Subliminal Verses)</h5>
-                            <p class="card-text">Vol. 3: (The Subliminal Verses) is the third studio album by American heavy metal band Slipknot, released on May 25, 2004, by Roadrunner Records. A special edition, containing a bonus disc, was released on April 12, 2005. It is the band's only album produced by Rick Rubin. Following the band's tour to promote its second album in 2002, speculation regarding the future began. Some band members had already been involved in side projects including Murderdolls, To My Surprise, and the reformation of Stone Sour. In 2003, Slipknot moved into The Mansion to work on the album. Initially, the band was unproductive; lead vocalist Corey Taylor was drinking heavily. Nevertheless, the band managed to write more than enough material for a new album. Vol. 3 is credited as Slipknot's first to incorporate more traditional, melodic song structures, guitar solos and acoustic instruments.</p>
-                            <a href="https://en.wikipedia.org/wiki/Vol._3:_(The_Subliminal_Verses)" class="btn btn-primary w-100 mt-auto">Wiki</a>
+            </section>
+            
+            <!-- ITEM SECTION 2 -->
+            
+            <section class="deals-container">
+                <div class="deals-wrapper">
+                    
+                    <div class="deals-header">
+                        <div>
+                            <h5>Popular Super Deals</h5>
+                            <p>Limited time offers at 
+                                <span class="break-line">amazing prices.</span>
+                            </p>
+                            <p>Don't miss out!</p>
                         </div>
+                        
+                        <button class="view-more">View more</button>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/images/toxicity.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Toxicity</h5>
-                            <p class="card-text">Toxicity is the second studio album by the American heavy metal band System of a Down, released on September 4, 2001, by American Recordings and Columbia Records. Expanding on their 1998 eponymous debut album, Toxicity incorporates more melody, harmonies, and singing than the band's first album. Categorized primarily as alternative metal and nu metal, the album features elements of multiple genres, including folk, progressive rock, jazz, and Armenian and Greek music, including prominent use of instruments like the sitar, banjo, keyboards, and piano. It contains a wide array of political and non-political themes, such as mass incarceration, the CIA, the environment, police brutality, drug addiction, scientific reductionism, and groupies.</p>
-                            <a href="https://en.wikipedia.org/wiki/Toxicity_(album)" class="btn btn-primary w-100 mt-auto">Wiki</a>
+                    
+                    <div class="deals-cards">
+                        
+                        <div class="card">
+                            <img src="assets/images/ESTRO-Garden-Shoes.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">ESTRO Garden Shoes Children's Clogs Boys...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€13.98</p>
+                                    
+                                </div>
+                            </div>
                         </div>
+                        
+                        <div class="card">
+                            <img src="assets/images/Maybelline-NewYork.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">Maybelline New York Superstay Teddy Tint...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€9.40</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="assets/images/Ninja-Compact-Blender.avif" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">Ninja BlendBoss Blender with Portable Cup...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€128.90</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="assets/images/FM-London-Mens.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">FM London Men's T-Shirt 3/5 Pack - High Quali...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€25.18</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="assets/images/Adaptive-Liquid.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">Adaptive Liquid Crystal Focus Glasses...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€24.77</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="assets/images/Mount-Fits-OOONO.jpg" class="card-img-top" alt="Google Pixel 10">
+                            <div class="card-body">
+                                <p class="card-text">Mount Fits OOONO NO2 - CO Driver for Sun...</p>
+                                
+                                <div class="price-box">
+                                    <p class="current-price">€5.99</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
-            <div class="row mt-5 py-5 px-5 bg-light border-top border-secondary-subtle">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-header">
-                            Get in touch!
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Contact Us</h5>
-                            <p class="card-text">Send us a message if you want to know more about the games we feature.</p>
-                            <a href="#" class="btn btn-primary">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row bg-dark py-2">
-                <div class="col">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-dark text-light">An item</li>
-                        <li class="list-group-item bg-dark text-light">A second item</li>
-                        <li class="list-group-item bg-dark text-light">A third item</li>
-                        <li class="list-group-item bg-dark text-light">A fourth item</li>
-                        <li class="list-group-item bg-dark text-light">And a fifth one</li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-dark text-light">An item</li>
-                        <li class="list-group-item bg-dark text-light">A second item</li>
-                        <li class="list-group-item bg-dark text-light">A third item</li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-dark text-light">An item</li>
-                        <li class="list-group-item bg-dark text-light">A second item</li>
-                        <li class="list-group-item bg-dark text-light">A third item</li>
-                        <li class="list-group-item bg-dark text-light">A fourth item</li>
-                    </ul>
-                </div>
+        </section>
+        
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h5>Similar to items you've saved</h5>
+            <div class="box-grid">
+                <img src="assets/images/iphone-15-case.jpg">
+                <img src="assets/images/lego-flowers.jpg">
+                <img src="assets/images/iphone-orange-camera.jpg">
+                <img src="assets/images/cerave-cream.jpg">
+                <p class="view-more-text">View More <span class="material-symbols-outlined"> arrow_right_alt </span>
+                    </p>
+                
             </div>
         </div>
-        
-        
-        
-        
-        
-        
-        
-        <script src="assets/script/bootstrap.bundle.min.js"></script>
-        <script src="assets/script/amazonIndex.js"></script>
-    </body>
-    </html>
+    
+        <div class="box">
+            <h5>Save on Amazon Devices</h5>
+            <div class="box-grid">
+                <img src="assets/images/amazon-kindle.jpg">
+                <img src="assets/images/amazon-tablet.jpg">
+                <img src="assets/images/amazon-boxes.jpg">
+                <img src="assets/images/amazn-firestick.jpg">
+                <p class="view-more-text">View More <span class="material-symbols-outlined"> arrow_right_alt </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <h5> Recently Viewed</h5>
+    
+    
+    
+    
+    
+    <script src="assets/script/bootstrap.bundle.min.js"></script>
+    <script src="assets/script/amazonIndex.js"></script>
+</body>
+</html>
 </body>
 </html>
