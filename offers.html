@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Redesign/Offers</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/AmazonIndex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    
+    
+    <body>
+        
+        <!-- NAVBAR -->
+        
+        <!-- Top Navbar -->
+        <div class="top-bar">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                
+                <div class="top-left">
+                    <span class="material-symbols-outlined">location_on</span>
+                    
+                    <div class="location-text">
+                        <span class="big-text">Deliver to</span>
+                        <span class="text-light">Malta</span>
+                    </div>
+                </div>
+                
+                
+                <div class="top-right">
+                    <a href="">Location</a>
+                    <a href="">Language</a>
+                    <a href="">Help</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white px-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/Amazon_logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle all-btn d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
+                                <span class="material-symbols-outlined">menu</span>
+                                <span>All</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-height">
+                                
+                                <li><h6 class="dropdown-header">Trending</h6></li>
+                                <li><a class="dropdown-item" href="lists.html">Best Sellers</a></li>
+                                <li><a class="dropdown-item" href="images.html">New Releases</a></li>
+                                <li><a class="dropdown-item" href="offers.html">Super Deals</a></li>
+                                
+                                <li><h6 class="dropdown-header">All Departments</h6></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Books</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Arts & Crafts</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Electronics</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Children & Babies</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Beauty & Personal Care</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Home & Garden</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Sports</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Kitchen</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Fashion</a></li>
+                                
+                                <li><h6 class="dropdown-header">Digital Content & Devices</h6></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Prime Video</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Amazon Music</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Echo & Alexa</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Kindle E-readers & Books</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Audible Books</a></li>
+                                
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-header">Help</h6></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Your Account</a></li>
+                                <li><a class="dropdown-item" href="flexbox.html">Help Centre</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="offers.html">Offers</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Interesting Finds</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="d-flex align-items-center gap-3">
+                        <form class="d-flex search-wrapper" role="search">
+                            <span class="material-symbols-outlined search-icon">search</span>
+                            <input class="form-control search-bar" type="search" placeholder="Search">
+                        </form>
+                        <a href="#" class="nav-icon">
+                            <span class="material-symbols-outlined">person</span>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <span class="material-symbols-outlined">shopping_bag</span>
+                        </a>
+                        
+                        <a href="#" class="nav-icon">
+                            <span class="material-symbols-outlined">favorite</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            
+            <!-- Image under navbar -->
+            <h5 class="deal-title">Super Deals</h5>
+            
+            <div class="container-fluid p-0">
+                <img src="assets/images/amazon-deals.jpg" alt="" 
+                class="deal-banner">
+            </div>
+            <div class="container">
+                <div class="row g-4">
+                    
+                    <div class="col-md-3 box sidebar">
+                        Sidebar
+                    </div>
+                    
+                    <div class="col-md-8 box main">
+                        
+                        <h5 class="sidebar-title">Quick Find</h5>
+                        <p>Products mostly chosen in this section</p>
+                        
+                        <div class="card-grid">
+                            
+                            <div class="card">
+                                <img src="assets/images/Ninja-Compact-Blender.avif" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">Ninja BlendBoss Blender...</p>
+                                    <div class="price-box">
+                                        <p class="current-price">€128.90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <img src="assets/images/Ninja-Compact-Blender.avif" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">Ninja BlendBoss Blender...</p>
+                                    <div class="price-box">
+                                        <p class="current-price">€128.90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <img src="assets/images/Ninja-Compact-Blender.avif" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">Ninja BlendBoss Blender...</p>
+                                    <div class="price-box">
+                                        <p class="current-price">€128.90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <img src="assets/images/Ninja-Compact-Blender.avif" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">Ninja BlendBoss Blender...</p>
+                                    <div class="price-box">
+                                        <p class="current-price">€128.90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <img src="assets/images/Ninja-Compact-Blender.avif" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">Ninja BlendBoss Blender...</p>
+                                    <div class="price-box">
+                                        <p class="current-price">€128.90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        
+        
+        <!-- items -->
+        
+        <div class="items-card">
+            
+            <div class="card">
+                <img src="assets/images/Ninja-Compact-Blender.avif" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">Ninja BlendBoss Blender with Portable Cup...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€128.90</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/Maybelline-NewYork.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">Maybelline New York Black Mascara for...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€10.02</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/powerbank.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">INIU Power Bank, Ultra Small 20000 mAh 22.5...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€23.02</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/Iphone17-proMax.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">Apple iPhone 17 Pro Clear Case with MagSafe ​​</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€44.62</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/Airtag.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">Apple AirTag (2nd Generation): Tracker for...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€31.72</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/iphone-cover-gray.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">GIOPUEY Camera Protection for iPhone 17...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€8.91</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    <!-- items slider -->
+    
+    <section class="deals-container">
+        <div class="deals-wrapper">
+            
+            <div class="deals-header">
+                <div>
+                    <h5>Hot New Releases</h5>
+                    <p>Explore new products 
+                        <span class="break-line">in this section.</span>
+                    </p>
+                    
+                </div>
+                
+                <button class="view-more">View more</button>
+            </div>
+            
+            <div class="deals-cards">
+                
+                <div class="card">
+                    <img src="assets/images/ESTRO-Garden-Shoes.jpg" class="card-img-top" alt="Google Pixel 10">
+                    <div class="card-body">
+                        <p class="card-text">ESTRO Garden Shoes Children's Clogs Boys...</p>
+                        
+                        <div class="price-box">
+                            <p class="current-price">€13.98</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="assets/images/Maybelline-NewYork.jpg" class="card-img-top" alt="Google Pixel 10">
+                    <div class="card-body">
+                        <p class="card-text">Maybelline New York Superstay Teddy Tint...</p>
+                        
+                        <div class="price-box">
+                            <p class="current-price">€9.40</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="assets/images/Ninja-Compact-Blender.avif" class="card-img-top" alt="Google Pixel 10">
+                    <div class="card-body">
+                        <p class="card-text">Ninja BlendBoss Blender with Portable Cup...</p>
+                        
+                        <div class="price-box">
+                            <p class="current-price">€128.90</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="assets/images/FM-London-Mens.jpg" class="card-img-top" alt="Google Pixel 10">
+                    <div class="card-body">
+                        <p class="card-text">FM London Men's T-Shirt 3/5 Pack - High Quali...</p>
+                        
+                        <div class="price-box">
+                            <p class="current-price">€25.18</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="assets/images/Adaptive-Liquid.jpg" class="card-img-top" alt="Google Pixel 10">
+                    <div class="card-body">
+                        <p class="card-text">Adaptive Liquid Crystal Focus Glasses...</p>
+                        
+                        <div class="price-box">
+                            <p class="current-price">€24.77</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="assets/images/Mount-Fits-OOONO.jpg" class="card-img-top" alt="Google Pixel 10">
+                    <div class="card-body">
+                        <p class="card-text">Mount Fits OOONO NO2 - CO Driver for Sun...</p>
+                        
+                        <div class="price-box">
+                            <p class="current-price">€5.99</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<!-- 3 sections of items -->
+
+<div class="items-card">
+            
+            <div class="card">
+                <img src="assets/images/Ninja-Compact-Blender.avif" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">Ninja BlendBoss Blender with Portable Cup...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€128.90</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/Maybelline-NewYork.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">Maybelline New York Black Mascara for...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€10.02</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/powerbank.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">INIU Power Bank, Ultra Small 20000 mAh 22.5...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€23.02</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/Iphone17-proMax.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">Apple iPhone 17 Pro Clear Case with MagSafe ​​</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€44.62</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/Airtag.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">Apple AirTag (2nd Generation): Tracker for...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€31.72</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/iphone-cover-gray.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">GIOPUEY Camera Protection for iPhone 17...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€8.91</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+<script src="assets/script/bootstrap.bundle.min.js"></script>
+<script src="assets/script/amazonIndex.js"></script>
+</body>
+</html>
