@@ -232,9 +232,9 @@
 }
 
 input.form-control.search-bar:focus {
-    border-color: #FFA510 !important;
-    box-shadow: 0 0 6px 2px #ffd083 !important;
     outline: none;
+    border-color: #FFA510;
+    box-shadow: 0 0 6px #ffa51080;
 }
 
 .search-wrapper {
@@ -744,32 +744,30 @@ input.form-control.search-bar:focus {
     font-size: 26px;
 }
 
+.layout {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
 .box {
     background: white;
     padding: 10px;
     border: 2px solid #E6E6E6;
     min-height: 300px;
-    
-    width: 100%;  
+    flex: 3;
     box-sizing: border-box;
+    
 }
 
 .sidebar {
     background: white;
-    flex: 3;        
-    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #E6E6E6;
     min-height: 200px;
-    margin: -17px;
-    margin-top: 23px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-}
-
-.layout {
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
+    flex: 1;
+    box-sizing: border-box;
+    margin-left: -20px;
 }
 
 .main {
@@ -916,11 +914,11 @@ input.form-control.search-bar:focus {
     background: white;
     
     color: black;
-
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
     gap: 10px;
     position: absolute;
     font-size: 20px;
@@ -957,6 +955,147 @@ input.form-control.search-bar:focus {
 
 button[aria-expanded="true"] .arrow-icon {
     transform: rotate(180deg);
+}
+
+
+/*-------------------------------------------------OFFERS END-------------------------------------------------*/
+
+/* contact form */
+
+
+
+.contact-row {
+    display: flex;
+    gap: 10px;
+    
+    margin-top: 30px;  
+}
+
+.form-intro {
+    text-align: center;
+}
+
+.intro-title {
+    margin-top: -10px;
+    margin-bottom: 12px; 
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact-left,
+.contact-right {
+    flex: 1;
+}
+
+.contact-field {
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    
+    border-radius: 10px;  
+    border: 1px solid #838383;
+}
+
+.contact-buttons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.contact-form {
+    width: 50%;
+    margin: 40px auto;
+    
+    background-color: transparent;
+    padding: 25px;
+    border-radius: 8px;
+    
+    text-align: center;
+    
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.page-wrapper {
+    background-color: #efefef;
+    margin: 30px;
+    border-radius: 16px;
+    padding: 20px;
+    
+    min-height: calc(100vh - 60px);
+    box-shadow: 0 10px 30px #0000001a;
+}
+
+.contact-field label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.checkbox-row input {
+    width: auto;
+    margin: -6px 0 0 0;  
+}
+
+.checkbox-row {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 5px;
+}
+
+
+/* buttons */
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-primary {
+    background-color: #FFA510;
+    color: white;
+    border: none;
+
+    width: 140px;
+    height: 40px;
+
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s ease;
+}
+
+/* hover for both button + link */
+.btn-primary:hover {
+    background-color: #FFBC4E;
+    color: white;
 }
 
 
