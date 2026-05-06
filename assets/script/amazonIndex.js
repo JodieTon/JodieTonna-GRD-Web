@@ -41,3 +41,6 @@ sliders.forEach(slider => {
         slider.scrollLeft = scrollLeft - walk;
     });
 });
+
+
+

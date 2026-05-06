@@ -671,7 +671,7 @@ input.form-control.search-bar:focus {
     background-color: #ffd083;
 }
 
-
+/* footer*/
 
 .main-footer {
     background: #323B47;
@@ -1099,6 +1099,145 @@ body {
 }
 
 
+/*-------------------------------------------------Product section start-------------------------------------------------*/
+
+/* Product */
+
+.page-wrapper {
+    display: block;
+}
+
+.product-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 350px;
+    
+}
+
+.product-gallery {
+    width: 320px;
+    flex-shrink: 0;
+}
+
+.product-container {
+    display: flex;
+    align-items: flex-start; 
+    gap: 40px; 
+    margin-top: 70px;
+}
+
+.product-main-img {
+    width: 100%;
+    height: 534px;
+    margin-left: 45px;
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translate(170px, 55px); /* right, down */
+    justify-content: center;
+}
+
+.product-main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   
+}
+
+/* detail text */
+.product-details {
+    position: relative;
+    flex: 1;
+    min-width: 0;
+    margin-top: 120px;
+}
+
+.product-title {
+    font-size: 24px;
+    line-height: 1.4;
+    max-width: 490px;  
+    font-weight: 500;
+}
+
+.product-brand {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #515151;
+    letter-spacing: 1px;
+}
+
+/* Thumbnails */
+.product-thumbs {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    transform: translate(120px, 60px);
+}
+
+.product-thumbs img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.product-actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+
+/* buttons */
+
+.product-actions {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 10px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    color: #3E3E3E;
+}
+
+.tab-btn.active {
+    color: #3E3E3E;
+    font-weight: 600;
+}
+
+/* underline */
+.tab-btn.active::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    transform: translateX(-50%);
+    
+    width: 120%;  
+    height: 3px;
+    background: #FFA510;
+    
+    border-radius: 999px; 
+}
+
+
+
+
+
+
+
+
+
+
 /* text font*/
 
 html, body {
@@ -1108,4 +1247,9 @@ html, body {
 
 body {
     font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
 }
