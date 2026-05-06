@@ -1,3 +1,4 @@
+
 document.querySelectorAll('.navbar .nav-link').forEach(link => {
     link.addEventListener('click', function () {
 
@@ -41,6 +42,4 @@ sliders.forEach(slider => {
         slider.scrollLeft = scrollLeft - walk;
     });
 });
-
-
 
