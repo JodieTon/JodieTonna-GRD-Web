@@ -1,4 +1,7 @@
 
+//slide animation
+
+
 document.querySelectorAll('.navbar .nav-link').forEach(link => {
     link.addEventListener('click', function () {
 
@@ -42,4 +45,19 @@ sliders.forEach(slider => {
         slider.scrollLeft = scrollLeft - walk;
     });
 });
+
+
+//Toast add to cart pop up
+
+
+const toastTrigger = document.getElementById('add-to-cart')
+const toastLiveExample = document.getElementById('cartToast')
+
+if (toastTrigger) {
+    const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+
+    toastTrigger.addEventListener('click', () => {
+        toastBootstrap.show()
+    })
+}
 

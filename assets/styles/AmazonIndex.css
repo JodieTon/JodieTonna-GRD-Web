@@ -1414,27 +1414,77 @@ body {
 
 /* add to cart popup */
 
-.cart-toast {
+#cartToast {
+    background-color: white;
     border: none;
-    border-radius: 12px;
+    border-radius: 10px !important;
     box-shadow: 0 10px 25px #00000026;
     overflow: hidden;
+    padding: -10px 10px 10px;
+    
 }
 
-
+.toast-header {
+    background-color: white;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
 
 .toast-body {
-    font-size: 14px;
+    font-size: 18px;
     padding: 12px 15px;
-    background: #fff;
+    background-color: white;
+    color: black;
+    border-radius: 0 0 10px 10px;
+    margin-left: 40px;
+    font-weight: 500;
+    margin-top: 2px;
 }
 
-.toast-img {
-    width: 28px;
-    height: 28px;
-    object-fit: cover;
-    border-radius: 6px;
+.brand-name {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    margin-top: -60px;
+    display: block;
 }
+
+.product-description {
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: -20px;
+    display: block;
+    margin-left: -83px;
+}
+
+.product-price-toast {
+    margin-left: -185px;
+    margin-top: 30px;
+}
+
+.toast img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    margin-top: -15px; 
+    left: -5px;
+    object-fit: contain;
+}
+
+.toast-header,
+.toast-body {
+    background-color: white;
+}
+
+.btn-close{
+position: absolute;
+top: 32px;
+right: 37px;
+}
+
 
 
 

@@ -205,7 +205,8 @@
                 </p>
                 
                 
-                <button class="add-to-cart" onclick="showToast()">
+                <!-- Button -->
+                <button id="add-to-cart" class="add-to-cart">
                     Add to Cart
                 </button>
                 
@@ -285,7 +286,7 @@
             
             <div class="similar-item">
                 <div class="card">
-                    <img src="assets/images/Black-Mascara-for.jpg" class="card-img-top">
+                    <img src="assets/images/Black-Mascara-for.jpg" class="product">
                     <div class="card-body">
                         <p class="product-card-title">Maybelline New York Black Mascara for...</p>
                         <div class="price-box">
@@ -359,12 +360,6 @@
         </div>
         
         
-        
-        
-        
-        
-        
-        
         <!-- Footer list start-->
         <footer class="main-footer">
             
@@ -422,30 +417,37 @@
         
     </footer>
     
+    <!--Added to cart pop up-->
     
     <div class="toast-container position-fixed top-0 end-0 p-3">
         
         <div id="cartToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
             
-            <div class="toast-header">
-                <img src="assets/images/Airtag.jpg" class="rounded me-2" alt="Product" width="20">
-                <strong class="me-auto">Cart</strong>
-                <small>just now</small>
-                
-                <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
-            </div>
-            
             <div class="toast-body">
                 Item added to cart
             </div>
+            
+            <div class="toast-header">
+                <img src="assets/images/maybelline_mascara.jpg" class="rounded me-2" alt="Product" width="50">
+                <strong class="brand-name">Maybelline</strong>
+                <div class="product-description">New York Sky High Mascara</div>
+                <div class="product-price-toast">€10.02</div>
+                
+                
+                
+                
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+            
+            
             
         </div>
         
     </div>
     
     
-    
     <script src="assets/script/bootstrap.bundle.min.js"></script>
     <script src="assets/script/amazonIndex.js"></script>
+    
 </body>
 </html>
