@@ -61,3 +61,10 @@ if (toastTrigger) {
     })
 }
 
+//swapping products in product section
+
+function swapImage(element) {
+    document.getElementById("displayedImage").src = element.src;
+}
+
+

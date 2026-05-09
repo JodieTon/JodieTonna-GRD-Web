@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Redesign/Home</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/AmazonIndex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+
+
+<body>
+    
+    <!-- NAVBAR -->
+    
+    <!-- Top Navbar -->
+    <div class="top-bar">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            
+            <div class="top-left">
+                <span class="material-symbols-outlined">location_on</span>
+                
+                <div class="location-text">
+                    <span class="big-text">Deliver to</span>
+                    <span class="text-light">Malta</span>
+                </div>
+            </div>
+            
+            
+            <div class="top-right">
+                <a href="">Location</a>
+                <a href="">Language</a>
+                <a href="">Help</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white px-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/Amazon_logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle all-btn d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
+                            <span class="material-symbols-outlined">menu</span>
+                            <span>All</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-height">
+                            
+                            <li><h6 class="dropdown-header">Trending</h6></li>
+                            <li><a class="dropdown-item" href="lists.html">Best Sellers</a></li>
+                            <li><a class="dropdown-item" href="images.html">New Releases</a></li>
+                            <li><a class="dropdown-item" href="offers.html">Super Deals</a></li>
+                            
+                            <li><h6 class="dropdown-header">All Departments</h6></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Books</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Arts & Crafts</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Electronics</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Children & Babies</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Beauty & Personal Care</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Home & Garden</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Sports</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Kitchen</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Fashion</a></li>
+                            
+                            <li><h6 class="dropdown-header">Digital Content & Devices</h6></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Prime Video</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Amazon Music</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Echo & Alexa</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Kindle E-readers & Books</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Audible Books</a></li>
+                            
+                            <li><hr class="dropdown-divider"></li>
+                            <li><h6 class="dropdown-header">Help</h6></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Your Account</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Help Centre</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="offers.html">Offers</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="offers.html">Interesting Finds</a>
+                    </li>
+                    
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <form class="d-flex search-wrapper" role="search">
+                        <span class="material-symbols-outlined search-icon">search</span>
+                        <input class="form-control search-bar" type="search" placeholder="Search">
+                    </form>
+                    <a href="#" class="nav-icon">
+                        <span class="material-symbols-outlined">person</span>
+                    </a>
+                    <a href="#" class="nav-icon">
+                        <span class="material-symbols-outlined">shopping_bag</span>
+                    </a>
+                    
+                    <a href="#" class="nav-icon">
+                        <span class="material-symbols-outlined">favorite</span>
+                    </a>
+                    
+                    
+                    
+                </div>
+            </div>
+        </nav>
+        <!-- NAVBAR END -->
+        
+        
+        <!-- Product image-->
+        <div class="product-layout">
+            
+            <div class="product-gallery">
+                <div class="product-main-img">
+                    <img id="displayedImage" src="assets/images/maybelline_mascara.jpg" alt="Product Image">
+                </div>
+                
+                <div class="product-thumbs">
+                    <img src="assets/images/Mascara-pink.png" onclick="swapImage(this)">
+                    <img src="assets/images/Mascara-black1.png" onclick="swapImage(this)">
+                    <img src="assets/images/Mascara-white1.png" onclick="swapImage(this)">
+                    <img src="assets/images/Mascara-orange1.png" onclick="swapImage(this)">
+                    <img src="assets/images/Mascara-maroon1.png" onclick="swapImage(this)">
+                </div>
+            </div>
+            
+            <!-- Product details-->
+            <div class="product-details">
+                
+                <div class="product-actions">
+                    <button class="tab-btn active">Details</button>
+                    <button class="tab-btn">Reviews</button>
+                </div>
+                
+                <h4 class="product-title">
+                    Maybelline New York Black Mascara for Extremely Long Eyelashes, Lash Sensational Sky High Mascara, Very Black, 7.2 ml
+                </h4>         
+                
+                <p class="product-brand">MAYBELLINE</p>
+                
+                <div class="product-price">
+                    <h5 class="discount">-8%</h5>
+                    <h5 class="price">€10.02</h5>
+                </div>
+                
+                <p class="rrp">RRP: €10.97</p>
+                
+                
+                <p class="product-spec">
+                    <span class="spec-title">Colour</span>
+                    <span class="spec-value">Black</span>
+                </p>
+                
+                <p class="product-spec">
+                    <span class="spec-title">Brand</span>
+                    <span class="spec-value">Maybelline</span>
+                </p>
+                
+                <p class="product-spec">
+                    <span class="spec-title">Item form</span>
+                    <span class="spec-value">Liquid</span>
+                </p>
+                
+                <p class="product-spec">
+                    <span class="spec-title">Speciality</span>
+                    <span class="spec-value">Volumizing, extender</span>
+                </p>
+                
+                <p class="product-spec">
+                    <span class="spec-title">Number of items</span>
+                    <span class="spec-value">1</span>
+                </p>
+                
+                <p class="product-spec">
+                    <span class="spec-title">Unit count</span>
+                    <span class="spec-value">7.0 millilitre</span>
+                </p>
+                
+                <p class="product-spec">
+                    <span class="spec-title">Item volume</span>
+                    <span class="spec-value">7.2 Millilitres</span>
+                </p>
+                
+                <p class="product-spec">
+                    <span class="spec-title">Package information</span>
+                    <span class="spec-value">7.2 ml</span>
+                </p>
+                
+                <p class="product-spec">
+                    <span class="spec-title">Special Feature</span>
+                    <span class="spec-value">Volume-enhancing, lengthening</span>
+                </p>
+                
+                
+                <!-- Button -->
+                <button id="add-to-cart" class="add-to-cart">
+                    Add to Cart
+                </button>
+                
+            </div>
+            
+        </div>
+        
+        <!-- Section -->
+        <h5 class="fbt-title">Frequently bought together</h5>
+        
+        <div class="fbt-products">
+            
+            <!-- FIRST PRODUCT -->
+            <div class="fbt-item">
+                <p class="product-label">This item</p>
+                
+                <div class="card">
+                    <img src="assets/images/maybelline_mascara.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="product-card-title">Maybelline New York Black Mascara...</p>
+                        <div class="price-box">
+                            <p class="current-price">€10.02</p>
+                            <p class="old-price">€10.97</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SECOND PRODUCT -->
+            <div class="fbt-item">
+                <div class="card">
+                    <img src="assets/images/e.l.f.-Power-Grip.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="product-card-title">e.l.f. Power Grip Primer, Gel-Based & Hydrating...</p>
+                        <div class="price-box">
+                            <p class="current-price">€12.58</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- THIRD PRODUCT -->
+            <div class="fbt-item">
+                <div class="card">
+                    <img src="assets/images/Maybelline-New-York-Super.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="product-card-title">Maybelline New York Super Lock Brow Glue...</p>
+                        <div class="price-box">
+                            <p class="current-price">€8.13</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <!--images -->
+        
+        <div class="image-boxes-mascara">
+            
+            <div class="img-box-eyes">
+                <img src="assets/images/Maybelline-Lash-Sensational-Lash-Sensational-Sky-High-Mascara-ATF-AV16_7863353.jpg" alt="Image 1">
+            </div>
+            
+            <div class="img-box-item">
+                <img src="assets/images/Maybelline-Mascara-Lash-Sensational-Lash-Sensational-Sky-High-Mascara-ATF-AV20_7863358.jpg" alt="Image 2">
+            </div>
+            
+        </div>
+        
+        <!--Similar items -->
+        
+        <h5 class="similar-title">Similar products</h5>
+        
+        <div class="similar-products">
+            
+            <div class="similar-item">
+                <div class="card">
+                    <img src="assets/images/Black-Mascara-for.jpg" class="product">
+                    <div class="card-body">
+                        <p class="product-card-title">Maybelline New York Black Mascara for...</p>
+                        <div class="price-box">
+                            <p class="current-price">€20.79</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="similar-item">
+                <div class="card">
+                    <img src="assets/images/e.l.f.-Power-Grip.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="product-card-title">e.l.f. Power Grip Primer, Gel-Based & Hydrating...</p>
+                        <div class="price-box">
+                            <p class="current-price">€12.58</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="similar-item">
+                <div class="card">
+                    <img src="assets/images/Concealer-Pen.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="product-card-title">Maybelline New York Concealer Pen, Instant...</p>
+                        <div class="price-box">
+                            <p class="current-price">€8.43</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="similar-item">
+                <div class="card">
+                    <img src="assets/images/KIKO-Milano-Smart-Colour.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="product-card-title">KIKO Milano Smart Colour Blush - 05 | Blush with...</p>
+                        <div class="price-box">
+                            <p class="current-price">€5.55</p>
+                            <p class="old-price">€6.93</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="similar-item">
+                <div class="card">
+                    <img src="assets/images/KIKO-Milano-LIP-Volume.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="product-card-title">KIKO Milano LIP Volume</p>
+                        <div class="price-box">
+                            <p class="current-price">€8.87</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="similar-item">
+                <div class="card">
+                    <img src="assets/images/NYX-Professional.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="product-card-title">NYX Super Hold Brow Glue, Professional Mak...</p>
+                        <div class="price-box">
+                            <p class="current-price">€6.86</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <!-- Footer list start-->
+        <footer class="main-footer">
+            
+            <div class="footer-content">
+                
+                <div class="footer-section">
+                    <h4>Get To Know Us</h4>
+                    <p>About Us</p>
+                    <p>Careers</p>
+                    <p>Press Releases</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Make Money with Us</h4>
+                    <p>Sell on Amazon Business</p>
+                    <p>Sell on Amazon Handmade</p>
+                    <p>Amazon Pay</p>
+                    <p>Advertise your product</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Amazon Payment Methods</h4>
+                    <p>Amazon Visa</p>
+                    <p>Shop with points</p>
+                    <p>Gift Cards</p>
+                    <p>Monthly Invoice</p>
+                    <p>Top up account</p>
+                    <p>Top up account in store</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Amazon Managing</h4>
+                    <p>Track  packages or </p>
+                    <p>View orders</p>
+                    <p>Delivery rates & policies</p>
+                    <p>Amazon Prime</p>
+                    <p>Returns and replacements</p>
+                    <p>Recycling</p>
+                    <p>Cancel contracts</p>
+                    <p>Manage your contents &</p>
+                    <p>Devices</p>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Conditions of use</p>
+            <p>Privacy Notice</p>
+            <p>Interest-Based Ads Notice</p>
+            <p>© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+        </div>
+        
+        
+    </footer>
+    
+    <!--Added to cart pop up-->
+    
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+        
+        <div id="cartToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            
+            <div class="toast-body">
+                <span class="material-symbols-outlined check-circle"> check_circle</span>
+                Item added to cart
+            </div>
+            
+            <div class="toast-header">
+                <img src="assets/images/maybelline_mascara.jpg" class="rounded me-2" alt="Product" width="50">
+                <strong class="brand-name">Maybelline</strong>
+                <div class="product-description">New York Sky High Mascara</div>
+                <div class="product-price-toast">€10.02</div>
+                
+                
+                
+                
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    <script src="assets/script/bootstrap.bundle.min.js"></script>
+    <script src="assets/script/amazonIndex.js"></script>
+    
+</body>
+</html>
