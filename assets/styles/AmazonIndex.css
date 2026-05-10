@@ -250,6 +250,7 @@ input.form-control.search-bar:focus {
     color: #A7A7A7;
     font-size: 20px;
     pointer-events: none;
+    margin-top: 5px;
 }
 
 /* icons in the navbar*/
@@ -735,6 +736,8 @@ input.form-control.search-bar:focus {
 
 /*-------------------------------------------------INDEX END-------------------------------------------------*/
 
+/*-------------------------------------------------OFFERS START-------------------------------------------------*/
+
 /* boxes */
 .deal-banner {
     width: 30%;
@@ -746,7 +749,7 @@ input.form-control.search-bar:focus {
 }
 
 .deal-title {
-    margin: 15px 0 10px 60px;
+    margin: 15px 0 30px 60px;
     font-weight: 600;
     font-size: 26px;
 }
@@ -804,6 +807,13 @@ input.form-control.search-bar:focus {
     margin-left: 60px;
 }
 
+.card-grid a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
 
 .text-block {
     grid-column: 1;
@@ -812,6 +822,8 @@ input.form-control.search-bar:focus {
     display: flex;
     flex-direction: column;
     
+    margin-bottom: 30px;
+
     height: 100%;       
     padding: 15px;
 }
@@ -915,6 +927,44 @@ input.form-control.search-bar:focus {
     padding-left: 60px
 }
 
+/* Items row under box */
+
+.items-card {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+
+    padding: 10px 40px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    scroll-behavior: smooth;
+}
+
+.items-card .card {
+    flex: 0 0 auto;
+    width: 13rem;
+    height: 280px;
+}
+
+.view-more-text {
+    margin-left: 45px;
+}
+
+.items-card-row2,
+.items-card-row3 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+    gap: 20px;
+
+    padding: 10px 40px;
+    padding-left: 60px;
+}
+
 /* sidebar dropdown*/
 
 .custom-dropdown {
@@ -966,6 +1016,8 @@ button[aria-expanded="true"] .arrow-icon {
 
 
 /*-------------------------------------------------OFFERS END-------------------------------------------------*/
+
+/*-------------------------------------------------CONTACT FORM START-------------------------------------------------*/
 
 /* contact form */
 
@@ -1105,8 +1157,9 @@ body {
     color: white;
 }
 
+/*-------------------------------------------------CONTACT FORM end-------------------------------------------------*/
 
-/*-------------------------------------------------Product section start-------------------------------------------------*/
+/*-------------------------------------------------Product-maybelline section start-------------------------------------------------*/
 
 /* Product */
 
@@ -1506,7 +1559,10 @@ body {
     right: 37px;
 }
 
+/*-------------------------------------------------Product-maybelline section end-------------------------------------------------*/
 
+
+/*-------------------------------------------------Product-google section start-------------------------------------------------*/
 
 /* add to cart popup for google pixel 10 */
 .toast-header-google {
@@ -1585,3 +1641,48 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+
+/*-------------------------------------------------Product-google section end-------------------------------------------------*/
+
+
+/*-------------------------------------------------interesting finds start-------------------------------------------------*/
+
+deal-title
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.hero-banner {
+    width: 100vw;
+    margin-top: 5px;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+
+.hero-banner img {
+    width: 100%;
+    height: 344px;
+
+    object-fit: cover;
+
+    display: block;
+
+    border-radius: 0; 
+}
+
+.interesting-finds {
+    margin: 15px 0 10px 60px;
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 60px;
+}
+
+.deal-title
