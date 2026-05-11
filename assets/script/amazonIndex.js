@@ -67,4 +67,10 @@ function swapImage(element) {
     document.getElementById("displayedImage").src = element.src;
 }
 
+//removes drag from clickable items
+document.addEventListener("dragstart", function(e) {
+    e.preventDefault();
+});
+
+
 
