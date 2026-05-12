@@ -788,8 +788,8 @@ input.form-control.search-bar:focus {
 }
 
 .custom-wrap {
-    padding-left: 80px;   /* increase this */
-    padding-right: 0 50px;  /* increase this */
+    padding-left: 80px;   
+    padding-right: 0 50px;  
 }
 
 /* Items in box */
@@ -1993,6 +1993,143 @@ body {
 
 
 
+
+
+/*-------------------------------------------------Maybelline brand page end-------------------------------------------------*/
+
+/*-------------------------------------------------account page start-------------------------------------------------*/
+
+.user-icon {
+    font-size: 30px !important;
+    line-height: 1;
+}
+.account-boxes {
+    display: flex;
+    justify-content: center; 
+    gap: 60px; 
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.account-box {
+    width: 355px;
+    height: 355px;
+    gap: 20px;
+
+    background: white;
+    border: 2px solid #E6E6E6;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.order-icon {
+    font-size: 100px !important;
+    line-height: 1;
+
+    position: relative;
+    top: 17px;
+
+    display: block;
+    text-align: center;
+}
+
+.order-text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.order-category {
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 16px;
+    margin-top: -30px;
+}
+
+.account-icon {
+    font-size: 100px !important;
+    line-height: 1;
+
+    position: relative;
+    top: 17px;
+
+    display: block;
+    text-align: center;
+}
+.account-box {
+    text-decoration: none;   
+    color: inherit;
+}
+
+.support-icon {
+    font-size: 100px !important;
+    line-height: 1;
+
+    position: relative;
+    top: 17px;
+
+    display: block;
+    text-align: center;
+}
+
+/* bottom rectangles */
+
+.rectangle-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    max-width: 1185px;
+    margin: 30px auto; 
+    margin-top: 50px;
+    
+}
+
+
+.rectangle {
+    height: 170px;
+    background: #fff;
+    border: 2px solid #E6E6E6;
+    border-radius: 12px;
+
+    padding: 15px; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+
+    text-align: left;
+    padding-left: 30px;
+}
+
+.rect-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.rect-text {
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+material-symbols-outlined
+
+
+
+
+
+/*-------------------------------------------------for structure-------------------------------------------------*/
 
 html, body {
     margin: 0;

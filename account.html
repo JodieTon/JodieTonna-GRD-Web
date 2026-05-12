@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Redesign/Contact Form</title>
+    <title>Amazon Redesign/Sky High Mascara</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +15,6 @@
 
 
 <body>
-    
-    
     
     <!-- NAVBAR -->
     
@@ -119,127 +117,183 @@
                 </div>
             </div>
         </nav>
+        <!-- NAVBAR END -->
         
-        <!-- CONTACT FORM -->
         
         
-        <div class="page-wrapper">
+        <h5 class="similar-title d-flex align-items-center gap-2">
+            <span class="material-symbols-outlined user-icon">person</span>
+            Account
+        </h5>
+        
+        <div class="account-boxes">
+        
+            <a href="#" class="account-box">
+                <span class="material-symbols-outlined order-icon">order_approve</span>
+        
+                <p class="order-text">Your Orders</p>
+        
+                <p class="order-category">
+                    Track, Return, Cancel an order,<br>
+                    download invoice or buy again
+                </p>
+            </a>
+        
+            <a href="#" class="account-box">
+                <span class="material-symbols-outlined account-icon">person</span>
+        
+                <p class="order-text">Login & Security</p>
+        
+                <p class="order-category">
+                    Edit name, Mobile number,<br>
+                    Email, Password and Address
+                </p>
+            </a>
+        
+            <a href="#" class="account-box">
+                <span class="material-symbols-outlined support-icon">support_agent</span>
+        
+                <p class="order-text">Contact Support</p>
+        
+                <p class="order-category">
+                    Browse self service options,<br>
+                    Help articles or Contact Us
+                </p>
+            </a>
+        
+        </div>
+        
+        <div class="rectangle-grid">
             
-            <form class="bigBox contact-form" id="contactForm"
-            action="mailto:hello@website.com"
-            method="post"
-            enctype="text/plain">
-            
-            <fieldset class="contact-section">
-                <h5 class="intro-title"> Join the Mailing List </h5>
-                <p class="form-intro">
-                    Fill in this form to receive updates about new products<br>
-                    and limited time sales!
+            <div class="rectangle">
+                
+                <h4 class="rect-title">Ordering and Shopping Preferences</h4>
+                
+                <p class="rect-text">
+                    Your Transactions<br>
+                    Currency Settings<br>
+                    Language Settings
                 </p>
                 
-                <div class="contact-row">
-                    <div class="contact-field contact-left">
-                        <label for="firstName">First Name:</label>
-                        <input type="text" id="firstName" name="name" placeholder="John" required>
-                    </div>
-                    
-                    <div class="contact-field contact-right">
-                        <label for="lastName">Last Name:</label>
-                        <input type="text" id="lastName" name="surname" placeholder="Doe" required>
-                    </div>
-                </div>
-            </fieldset>
+            </div>
+
+            <!-- rectangle grid -->
             
-            <fieldset class="contact-section">
+            <div class="rectangle">
                 
+                <h4 class="rect-title">Manage Account</h4>
                 
-                <div class="contact-field">
-                    <label for="email">Email Address</label>
-                    <input type="text" id="email" name="emailAddress" placeholder="johndoe@gmail.com" required>
-                </div>
+                <p class="rect-text">
+                    Account Linking<br>
+                    Transfer Data<br>
+                    Deactivate Account
+                </p>
                 
-                <div class="contact-field">
-                    <label for="phone">Phone number</label>
-                    <input type="text" id="phone" name="phoneNumber" placeholder="9922 4466" required pattern="[0-9]{4} [0-9]{4}">
-                </div>
-                
-                <div class="contact-field checkbox-row">
-                    <input type="checkbox" id="offers" name="offersCheckbox">
-                    <label for="offers">Contact me about new offers</label>
-                </div>
-                
-            </fieldset>
-            
-            <div class="contact-buttons">
-                <button type="submit" class="btn-primary">Send</button>
-                <a href="index.html" class="btn-primary">Cancel</a>
             </div>
             
-            
-            
-        </form>
-        
-    </div>
-    
-    <!-- FOOTER START -->
-    
-    <footer class="main-footer">
-        
-        <div class="footer-content">
-            
-            <div class="footer-section">
-                <h4>Get To Know Us</h4>
-                <p>About Us</p>
-                <p>Careers</p>
-                <p>Press Releases</p>
+            <div class="rectangle">
+                
+                <h4 class="rect-title">Email Alerts, Messages, Ads and Cookies</h4>
+                
+                <p class="rect-text">
+                    Message Centre<br>
+                    Mailing List<br>
+                    Advertising Preferences
+                </p>
+                
             </div>
             
-            <div class="footer-section">
-                <h4>Make Money with Us</h4>
-                <p>Sell on Amazon Business</p>
-                <p>Sell on Amazon Handmade</p>
-                <p>Amazon Pay</p>
-                <p>Advertise your product</p>
-            </div>
-            
-            <div class="footer-section">
-                <h4>Amazon Payment Methods</h4>
-                <p>Amazon Visa</p>
-                <p>Shop with points</p>
-                <p>Gift Cards</p>
-                <p>Monthly Invoice</p>
-                <p>Top up account</p>
-                <p>Top up account in store</p>
-            </div>
-            
-            <div class="footer-section">
-                <h4>Amazon Managing</h4>
-                <p>Track  packages or </p>
-                <p>View orders</p>
-                <p>Delivery rates & policies</p>
-                <p>Amazon Prime</p>
-                <p>Returns and replacements</p>
-                <p>Recycling</p>
-                <p>Cancel contracts</p>
-                <p>Manage your contents &</p>
-                <p>Devices</p>
+            <div class="rectangle">
+                
+                <h4 class="rect-title">Shopping Transactions</h4>
+                
+                <p class="rect-text">
+                    Returns & Refunds<br>
+                    Shopping History<br>
+                    Service Records          
+                </p>
+                
             </div>
             
         </div>
         
-    </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- FOOTER START -->
+        
+        <footer class="main-footer">
+            
+            <div class="footer-content">
+                
+                <div class="footer-section">
+                    <h4>Get To Know Us</h4>
+                    <p>About Us</p>
+                    <p>Careers</p>
+                    <p>Press Releases</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Make Money with Us</h4>
+                    <p>Sell on Amazon Business</p>
+                    <p>Sell on Amazon Handmade</p>
+                    <p>Amazon Pay</p>
+                    <p>Advertise your product</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Amazon Payment Methods</h4>
+                    <p>Amazon Visa</p>
+                    <p>Shop with points</p>
+                    <p>Gift Cards</p>
+                    <p>Monthly Invoice</p>
+                    <p>Top up account</p>
+                    <p>Top up account in store</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Amazon Managing</h4>
+                    <p>Track  packages or </p>
+                    <p>View orders</p>
+                    <p>Delivery rates & policies</p>
+                    <p>Amazon Prime</p>
+                    <p>Returns and replacements</p>
+                    <p>Recycling</p>
+                    <p>Cancel contracts</p>
+                    <p>Manage your contents &</p>
+                    <p>Devices</p>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Conditions of use</p>
+            <p>Privacy Notice</p>
+            <p>Interest-Based Ads Notice</p>
+            <p>© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+        </div>
+        
+        
+    </footer>
     
-    <div class="footer-bottom">
-        <p>Conditions of use</p>
-        <p>Privacy Notice</p>
-        <p>Interest-Based Ads Notice</p>
-        <p>© 1996-2026, Amazon.com, Inc. or its affiliates</p>
-    </div>
-    
-    
-</footer>
-
-<script src="assets/script/bootstrap.bundle.min.js"></script>
-<script src="assets/script/amazonIndex.js"></script>
+    <script src="assets/script/bootstrap.bundle.min.js"></script>
+    <script src="assets/script/amazonIndex.js"></script>
 </body>
 </html>
