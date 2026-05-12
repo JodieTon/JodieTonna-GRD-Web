@@ -72,5 +72,21 @@ document.addEventListener("dragstart", function(e) {
     e.preventDefault();
 });
 
+//follow button
+
+document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("followBtn");
+
+    btn.addEventListener("click", function () {
+        if (btn.innerText === "Follow") {
+            btn.innerText = "Following";
+            btn.classList.add("following");
+        } else {
+            btn.innerText = "Follow";
+            btn.classList.remove("following");
+        }
+    });
+});
+
 
 

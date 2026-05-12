@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Redesign/Home</title>
+    <title>Amazon Redesign/Maybelline Brand</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -130,9 +130,26 @@
                 <div class="container-fluid">
                     
                     <!-- Brand -->
-                    <a class="maybelline-logo navbar-brand" href="index.html">
-                        <img src="assets/images/Amazon_logo.png" alt="Maybelline Logo">
-                    </a>
+                    
+                    <div class="maybelline-logo navbar-brand">
+                        
+                        <img src="assets/images/maybelline-logo.png" alt="Maybelline Logo">
+                        
+                        <div class="maybelline-brand-info">
+
+                            <div class="maybelline-name-row">
+                                <span class="maybelline-brand-name">Maybelline</span>
+                        
+                                <span class="material-symbols-outlined maybelline-verified">
+                                    verified
+                                </span>
+                            </div>
+                        
+                            <button class="btn maybelline-follow-btn" id="followBtn">
+                                Follow
+                            </button>
+                        </div>
+                    </div> 
                     
                     <!-- Toggle -->
                     <button class="maybelline-toggler navbar-toggler" type="button"
@@ -144,34 +161,27 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
-                <!-- Nav content -->
                 <div class="collapse navbar-collapse" id="maybellineNavbar">
                     
-                    <!-- LEFT LINKS -->
-                    <ul class="maybelline-nav-links navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- right LINKS -->
+                    <ul class="navbar-nav d-flex align-items-center ms-auto gap-3 list-unstyled">
                         
                         <li class="nav-item dropdown maybelline-dropdown">
-                            <a class="nav-link dropdown-toggle maybelline-all-btn d-flex align-items-right"
+                            <a class="nav-link dropdown-toggle maybelline-all-btn d-flex align-items-center"
                             href="#" role="button" data-bs-toggle="dropdown">
-                            <span>Products</span>
+                            Products
                         </a>
                         
                         <ul class="dropdown-menu maybelline-dropdown-menu">
-                            
                             <li><h6 class="dropdown-header">Trending</h6></li>
                             <li><a class="dropdown-item" href="lists.html">Best Sellers</a></li>
                             <li><a class="dropdown-item" href="images.html">New Releases</a></li>
-                            <li><a class="dropdown-item" href="offers.html">Super Deals</a></li>
-                            
-                            <li><h6 class="dropdown-header">Categories</h6></li>
-                            <li><a class="dropdown-item" href="#">Mascara</a></li>
+                            <li><a class="dropdown-item" href="#">Eyes</a></li>
                             <li><a class="dropdown-item" href="#">Lipstick</a></li>
                             <li><a class="dropdown-item" href="#">Foundation</a></li>
                             <li><a class="dropdown-item" href="#">Skincare</a></li>
-                            
                         </ul>
                     </li>
-                    
                     
                     <li class="nav-item">
                         <a class="nav-link maybelline-nav-link" href="interestingfinds.html">New</a>
@@ -181,12 +191,12 @@
                 
                 <!-- RIGHT SIDE -->
                 <form class="maybelline-search" role="search">
-
+                    
                     <div class="search-wrapper">
                         <span class="material-symbols-outlined search-icon">search</span>
                         <input class="form-control maybelline-search-bar" type="search" placeholder="Search Maybelline">
                     </div>
-                
+                    
                 </form>
                 
             </div>
@@ -199,8 +209,118 @@
     
     <!-- items row 1  -->
     
+    <h5 class="similar-title">Maybelline Starter Kit</h5>
+    
     <div class="items-card">
         
+        
+        <a href="productMaybelline.html" class="text-decoration-none text-dark">
+            <div class="card">
+                <img src="assets/images/AOA-Studio.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">AOA Studio Collection makeup Sponge Set Lat...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€9.95</p>
+                        <p class="old-price">€12.99</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="productMaybelline.html" class="text-decoration-none text-dark">
+            <div class="card">
+                <img src="assets/images/RØDE-WS14.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">RØDE WS14 Premium Pop Filter for PodMic Pod...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€26.57</p>
+                        <p class="old-price">€29.74</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="productMaybelline.html" class="text-decoration-none text-dark">
+            <div class="card">
+                <img src="assets/images/DEATH-NOTE.webp" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">DEATH NOTE BOX SET: Volumes 1-13 with...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€79.90</p>
+                        <p class="old-price">€89.20</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="productMaybelline.html" class="text-decoration-none text-dark">
+            <div class="card">
+                <img src="assets/images/Dove-Body.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">Dove Body Wash Deep Moisture for 24hr Lotio..​</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€9.99</p>
+                        <p class="old-price">€10.97</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="productMaybelline.html" class="text-decoration-none text-dark">
+            <div class="card">
+                <img src="assets/images/iMethod-Curved.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">iMethod Curved Eyebrow Pen - 2-in-1 Dual-Ended...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€9.99</p>
+                        <p class="old-price">€14.97</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="productMaybelline.html" class="text-decoration-none text-dark">
+            <div class="card">
+                <img src="assets/images/iphone-cover-gray.jpg" class="card-img-top" alt="Google Pixel 10">
+                <div class="card-body">
+                    <p class="card-text">GIOPUEY Camera Protection for iPhone 17...</p>
+                    
+                    <div class="price-box">
+                        <p class="current-price">€8.91</p>
+                        <p class="old-price">€10.99</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        
+    </div>
+    
+</div>
+
+
+<!-- Item banner -->
+<div class="hero-banner-maybelline-items">
+    <img src="assets/images/maybelline-product-banner.jpg" alt="Banner">
+</div>
+
+<!-- row of items 2 -->
+<h5 class="similar-title">Current Best Sellers</h5>
+
+<div class="items-card">
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
         <div class="card">
             <img src="assets/images/AOA-Studio.jpg" class="card-img-top" alt="Google Pixel 10">
             <div class="card-body">
@@ -213,6 +333,9 @@
                 </div>
             </div>
         </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
         <div class="card">
             <img src="assets/images/RØDE-WS14.jpg" class="card-img-top" alt="Google Pixel 10">
             <div class="card-body">
@@ -225,6 +348,9 @@
                 </div>
             </div>
         </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
         <div class="card">
             <img src="assets/images/DEATH-NOTE.webp" class="card-img-top" alt="Google Pixel 10">
             <div class="card-body">
@@ -237,6 +363,9 @@
                 </div>
             </div>
         </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
         <div class="card">
             <img src="assets/images/Dove-Body.jpg" class="card-img-top" alt="Google Pixel 10">
             <div class="card-body">
@@ -249,6 +378,9 @@
                 </div>
             </div>
         </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
         <div class="card">
             <img src="assets/images/iMethod-Curved.jpg" class="card-img-top" alt="Google Pixel 10">
             <div class="card-body">
@@ -261,6 +393,9 @@
                 </div>
             </div>
         </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
         <div class="card">
             <img src="assets/images/iphone-cover-gray.jpg" class="card-img-top" alt="Google Pixel 10">
             <div class="card-body">
@@ -273,565 +408,317 @@
                 </div>
             </div>
         </div>
-        
-        
-        
-    </div>
-    
-</div>
-
-<!-- 2nd section of items -->
-
-<div class="items-card-row2">
-    
-    <div class="card">
-        <img src="assets/images/NYX-Professional.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">N
-            <p class="card-text">NYX PROFESSIONAL MAKEUP Fat Oil Lip Drip...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€6.97</p>
-                <p class="old-price">€10.00</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/UGREEN-4K.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">UGREEN 4K @ 30Hz DP to HDMI Cable, Universal...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€16.85</p>
-                <p class="old-price">€17.40</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/Kangtaxin-LED.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">Kangtaixin LED Hexagon Gaming Wall Light, 8...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€29.99</p>
-                <p class="old-price">€35.80</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/bayfree-liptint.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">bayfree Lip Tint Stain Set, Korean Water Tint...​​</p>
-            
-            <div class="price-box">
-                <p class="current-price">€6.39</p>
-                <p class="old-price">€9.77</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/Wanbo-vali.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">WANBO Vali 1 Pro Smart Projector Home Cinema...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€257.81</p>
-                <p class="old-price">€322.34</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/normal-people.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">Normal People - Sally Rooney </p>
-            
-            <div class="price-box">
-                <p class="current-price">€16.39</p>
-                <p class="old-price">€17.99</p>
-                
-            </div>
-        </div>
-    </div>
-    
-    
-    
+    </a>
 </div>
 
 </div>
 
 
 
-
-<!-- items row 2 -->
+<!-- 3nd section of items -->
 
 <div class="items-card">
     
-    <a href="productMaybelline.html" class="card-link">
-        
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
         <div class="card">
-            <img src="assets/images/Ninja-Compact-Blender.avif" class="card-img-top" alt="Your Fault Book">
-            
+            <img src="assets/images/AOA-Studio.jpg" class="card-img-top" alt="Google Pixel 10">
             <div class="card-body">
-                <p class="card-text">Ninja BlendBoss Blender with Portable Cup...</p>
+                <p class="card-text">AOA Studio Collection makeup Sponge Set Lat...</p>
                 
                 <div class="price-box">
-                    <p class="current-price">€128.90</p>
+                    <p class="current-price">€9.95</p>
+                    <p class="old-price">€12.99</p>
+                    
                 </div>
             </div>
         </div>
-        
     </a>
     
-    
-    
-    <div class="card">
-        <img src="assets/images/LockedDoor-FreidaMcFadden.webp" class="card-img-top" alt="">
-        <div class="card-body">
-            <p class="card-text">Locked Door - Freida McFadden</p>
-            
-            <div class="price-box">
-                <p class="current-price">€14.90</p>
-                <p class="old-price">€16.99</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/grace-stella.jpg" class="card-img-top" alt="">
-        <div class="card-body">
-            <p class="card-text">grace & stella Award Winning Under Eye Mask...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€23.02</p>
-                <p class="old-price">€39.00</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/LEGO-Editions-Football.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">LEGO Editions Football Toy - 3D Model Building...​​</p>
-            
-            <div class="price-box">
-                <p class="current-price">€88.94</p>
-                <p class="old-price">€79.99</p>
-                
-            </div>
-        </div>
-    </div>
-    
-    <a href="productMaybelline.html" class="card-link">
-        
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
         <div class="card">
-            <img src="assets/images/Your-Fault.jpg" class="card-img-top" alt="Your Fault Book">
-            
+            <img src="assets/images/RØDE-WS14.jpg" class="card-img-top" alt="Google Pixel 10">
             <div class="card-body">
-                <p class="card-text">Your Fault (Deluxe Edition): Book 2 in t...</p>
+                <p class="card-text">RØDE WS14 Premium Pop Filter for PodMic Pod...</p>
                 
                 <div class="price-box">
-                    <p class="current-price">€8.82</p>
-                    <p class="old-price">€15.99</p>
+                    <p class="current-price">€26.57</p>
+                    <p class="old-price">€29.74</p>
+                    
                 </div>
             </div>
         </div>
-        
     </a>
     
-    <div class="card">
-        <img src="assets/images/vaseline-lip.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">Vaseline Lip Therapy Variety 3-Pack – Crème...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€9.99</p>
-                <p class="old-price">€10.90</p>
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/DEATH-NOTE.webp" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">DEATH NOTE BOX SET: Volumes 1-13 with...</p>
                 
+                <div class="price-box">
+                    <p class="current-price">€79.90</p>
+                    <p class="old-price">€89.20</p>
+                    
+                </div>
             </div>
         </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Dove-Body.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Dove Body Wash Deep Moisture for 24hr Lotio..​</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€9.99</p>
+                    <p class="old-price">€10.97</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/iMethod-Curved.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">iMethod Curved Eyebrow Pen - 2-in-1 Dual-Ended...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€9.99</p>
+                    <p class="old-price">€14.97</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/iphone-cover-gray.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">GIOPUEY Camera Protection for iPhone 17...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€8.91</p>
+                    <p class="old-price">€10.99</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+</div>
+
+<!-- Image boxes -->
+<div class="image-boxes-mascara">
+    
+    <div class="img-box-eyes">
+        <img src="assets/images/serum-care-image.jpg" alt="Image 1">
     </div>
     
-    
-    
-</div>
-
-</div>
-
-
-<!-- items slider -->
-
-<section class="deals-container">
-    <div class="deals-wrapper">
-        
-        <div class="deals-header">
-            <div>
-                <h5>Out Of Your Comfort Zone</h5>
-                <p>Explore products you
-                    <span class="break-line">typically don't buy</span>
-                </p>
-                
-            </div>
-            
-            <button class="view-more">View more</button>
-        </div>
-        
-        <div class="deals-cards">
-            
-            <div class="card">
-                <img src="assets/images/TAURI-For-Google.jpg" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">TAURI For Google Pixel 10 Pro XL Case 6.8 inches...</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€9.26</p>
-                        <p class="old-price">€10.50</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="assets/images/TORRAS-Precise-screen.jpg" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">TORRAS Precise for Iphone 17 Pro for...</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€23.53</p>
-                        <p class="old-price">€27.75</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="assets/images/Just-friends.webp" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">Just Friends - Haley Pham</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€15.40</p>
-                        <p class="old-price">€16.99</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="assets/images/the-girl-with-the-suitcase.jpg" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">Girl with the Suitcase - Lesley Pearse</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€15.90</p>
-                        <p class="old-price">€16.99</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="assets/images/LANBENA-Vitamin.jpg" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">LANBENA Vitamin C Under Eye Patches...</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€9.99</p>
-                        <p class="old-price">€15.99</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="assets/images/Drunk-elephant.jpg" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">Drunk Elephant C-Tango Multivitamin Eye Cream...</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€65.99</p>
-                        <p class="old-price">€70.00</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+    <div class="img-box-item">
+        <img src="assets/images/model-mascara-image.webp" alt="Image 2">
     </div>
-</div>
-</section>
-
+    
 </div>
 
 
 
-<!-- items slider 2 -->
 
-<section class="deals-container">
-    <div class="deals-wrapper">
-        
-        <div class="deals-header">
-            <div>
-                <h5>Popular With Shoppers</h5>
-                <p>Explore what other 
-                    <span class="break-line">shoppers are buying</span>
-                </p>
-                
-            </div>
-            
-            <button class="view-more">View more</button>
-        </div>
-        
-        <div class="deals-cards">
-            
-            <div class="card">
-                <img src="assets/images/TAURI-For-Google.jpg" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">TAURI For Google Pixel 10 Pro XL Case 6.8 inches...</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€9.26</p>
-                        <p class="old-price">€10.50</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="assets/images/TORRAS-Precise-screen.jpg" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">TORRAS Precise for Iphone 17 Pro for...</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€23.53</p>
-                        <p class="old-price">€27.75</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="assets/images/Just-friends.webp" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">Just Friends - Haley Pham</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€15.40</p>
-                        <p class="old-price">€16.99</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="assets/images/the-girl-with-the-suitcase.jpg" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">Girl with the Suitcase - Lesley Pearse</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€15.90</p>
-                        <p class="old-price">€16.99</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="assets/images/LANBENA-Vitamin.jpg" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">LANBENA Vitamin C Under Eye Patches...</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€9.99</p>
-                        <p class="old-price">€15.99</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="assets/images/Drunk-elephant.jpg" class="card-img-top" alt="Google Pixel 10">
-                <div class="card-body">
-                    <p class="card-text">Drunk Elephant C-Tango Multivitamin Eye Cream...</p>
-                    
-                    <div class="price-box">
-                        <p class="current-price">€65.99</p>
-                        <p class="old-price">€70.00</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</div>
-</section>
-
-</div>
-
-<!-- 3 sections of items -->
+<!-- 4th section of items bottom -->
+<h5 class="similar-title">New releases</h5>
 
 <div class="items-card">
     
-    <div class="card">
-        <img src="assets/images/AOA-Studio.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">AOA Studio Collection makeup Sponge Set Lat...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€9.95</p>
-                <p class="old-price">€12.99</p>
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/AOA-Studio.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">AOA Studio Collection makeup Sponge Set Lat...</p>
                 
+                <div class="price-box">
+                    <p class="current-price">€9.95</p>
+                    <p class="old-price">€12.99</p>
+                    
+                </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/RØDE-WS14.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">RØDE WS14 Premium Pop Filter for PodMic Pod...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€26.57</p>
-                <p class="old-price">€29.74</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/DEATH-NOTE.webp" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">DEATH NOTE BOX SET: Volumes 1-13 with...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€79.90</p>
-                <p class="old-price">€89.20</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/Dove-Body.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">Dove Body Wash Deep Moisture for 24hr Lotio..​</p>
-            
-            <div class="price-box">
-                <p class="current-price">€9.99</p>
-                <p class="old-price">€10.97</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/iMethod-Curved.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">iMethod Curved Eyebrow Pen - 2-in-1 Dual-Ended...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€9.99</p>
-                <p class="old-price">€14.97</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/iphone-cover-gray.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">GIOPUEY Camera Protection for iPhone 17...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€8.91</p>
-                <p class="old-price">€10.99</p>
-                
-            </div>
-        </div>
-    </div>
+    </a>
     
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/RØDE-WS14.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">RØDE WS14 Premium Pop Filter for PodMic Pod...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€26.57</p>
+                    <p class="old-price">€29.74</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/DEATH-NOTE.webp" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">DEATH NOTE BOX SET: Volumes 1-13 with...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€79.90</p>
+                    <p class="old-price">€89.20</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Dove-Body.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Dove Body Wash Deep Moisture for 24hr Lotio..​</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€9.99</p>
+                    <p class="old-price">€10.97</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/iMethod-Curved.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">iMethod Curved Eyebrow Pen - 2-in-1 Dual-Ended...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€9.99</p>
+                    <p class="old-price">€14.97</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/iphone-cover-gray.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">GIOPUEY Camera Protection for iPhone 17...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€8.91</p>
+                    <p class="old-price">€10.99</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
 </div>
 
 </div>
 
-<!-- 2nd section of items -->
+<!-- 5th section of items bottom -->
 
-<div class="items-card-row2">
+<div class="items-card">
     
-    <div class="card">
-        <img src="assets/images/TAURI-For-Google.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">TAURI For Google Pixel 10 Pro XL Case 6.8 inches...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€9.26</p>
-                <p class="old-price">€10.90</p>
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/AOA-Studio.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">AOA Studio Collection makeup Sponge Set Lat...</p>
                 
+                <div class="price-box">
+                    <p class="current-price">€9.95</p>
+                    <p class="old-price">€12.99</p>
+                    
+                </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/Handheld-Steam-Cleaner.jpg"card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">Handheld Steam Cleaner With 12-Piece Acce...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€55.99</p>
-                <p class="old-price">€72.99</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/Divoom-pixoo.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">Divoom Pixoo Pixel Art Digital Frame...</p>
-            
-            <div class="price-box">
-                <p class="current-price">€55.24</p>
-                <p class="old-price">€64.50</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/Wonderskin-wonder.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">Wonderskin Wonder Blading All Day Lip Stain...​​</p>
-            
-            <div class="price-box">
-                <p class="current-price">€19.00</p>
-                <p class="old-price">€22.00</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/through-my-window.jpg" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">Through My Window - Ariana Godoy</p>
-            
-            <div class="price-box">
-                <p class="current-price">€9.26</p>
-                <p class="old-price">€10.90</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/images/A-goog-girls-guide-to-murder.webp" class="card-img-top" alt="Google Pixel 10">
-        <div class="card-body">
-            <p class="card-text">A Good Girl’s Guide To Murder</p>
-            
-            <div class="price-box">
-                <p class="current-price">€18.21</p>
-                <p class="old-price">€12.75</p>
-                
-            </div>
-        </div>
-    </div>
+    </a>
     
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/RØDE-WS14.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">RØDE WS14 Premium Pop Filter for PodMic Pod...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€26.57</p>
+                    <p class="old-price">€29.74</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
     
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/DEATH-NOTE.webp" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">DEATH NOTE BOX SET: Volumes 1-13 with...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€79.90</p>
+                    <p class="old-price">€89.20</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
     
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Dove-Body.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Dove Body Wash Deep Moisture for 24hr Lotio..​</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€9.99</p>
+                    <p class="old-price">€10.97</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/iMethod-Curved.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">iMethod Curved Eyebrow Pen - 2-in-1 Dual-Ended...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€9.99</p>
+                    <p class="old-price">€14.97</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productMaybelline.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/iphone-cover-gray.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">GIOPUEY Camera Protection for iPhone 17...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€8.91</p>
+                    <p class="old-price">€10.99</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
 </div>
 
 </div>
