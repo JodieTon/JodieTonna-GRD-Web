@@ -2123,10 +2123,13 @@ body {
     margin: 0;
 }
 
-material-symbols-outlined
 
 
 
+.help-icon {
+    font-size: 30px !important;
+    line-height: 1;
+}
 
 
 /*-------------------------------------------------for structure-------------------------------------------------*/
@@ -2135,3 +2138,8 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+
+
+
+
