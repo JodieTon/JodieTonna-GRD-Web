@@ -2592,6 +2592,27 @@ body {
     margin-top: 10px;
     font-size: 18px;
 }
+/*-------------------------------------------------beauty page-------------------------------------------------*/
+
+.full-beauty-banner {
+    width: 100vw;
+    height: 220px;       
+    object-fit: cover;
+
+    position: relative;
+    object-position: center -50px;
+
+    left: 50%;
+    right: 50%;
+
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-bottom: 50px;
+
+    display: block;
+}
+
+
 /*-------------------------------------------------for structure-------------------------------------------------*/
 
 html, body {
