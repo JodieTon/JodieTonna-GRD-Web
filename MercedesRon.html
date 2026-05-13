@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Redesign/Mercedes Ron</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/AmazonIndex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- NAVBAR -->
+    
+    <!-- Top Navbar -->
+    <div class="top-bar">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            
+            <div class="top-left">
+                <span class="material-symbols-outlined">location_on</span>
+                
+                <div class="location-text">
+                    <span class="big-text">Deliver to</span>
+                    <span class="text-light">Malta</span>
+                </div>
+            </div>
+            
+            
+            <div class="top-right">
+                <a href="">Location</a>
+                <a href="">Language</a>
+                <a href="helpcentre.html">Help</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white px-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/Amazon_logo.png" alt="Logo">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle all-btn d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
+                            <span class="material-symbols-outlined">menu</span>
+                            <span>All</span>
+                        </a>
+                        
+                        <ul class="dropdown-menu dropdown-height">
+                            
+                            <li><h6 class="dropdown-header">Trending</h6></li>
+                            <li><a class="dropdown-item" href="lists.html">Best Sellers</a></li>
+                            <li><a class="dropdown-item" href="images.html">New Releases</a></li>
+                            <li><a class="dropdown-item" href="offers.html">Super Deals</a></li>
+                            
+                            <li><h6 class="dropdown-header">All Departments</h6></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Books</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Arts & Crafts</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Electronics</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Children & Babies</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Beauty & Personal Care</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Home & Garden</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Sports</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Kitchen</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Fashion</a></li>
+                            
+                            <li><hr class="dropdown-divider"></li>
+                            <li><h6 class="dropdown-header">Help</h6></li>
+                            <li><a class="dropdown-item" href="account.html">Your Account</a></li>
+                            <li><a class="dropdown-item" href="helpcentre.html">Help Centre</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="offers.html">Offers</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="interestingfinds.html">Interesting Finds</a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex align-items-center gap-3">
+                    <form class="d-flex search-wrapper" role="search">
+                        <span class="material-symbols-outlined search-icon">search</span>
+                        <input class="form-control search-bar" type="search" placeholder="Search">
+                    </form>
+                    
+                    <a href="account.html" class="nav-icon">
+                        <span class="material-symbols-outlined">person</span>
+                    </a>
+                    
+                    <a href="#" class="nav-icon">
+                        <span class="material-symbols-outlined">shopping_bag</span>
+                    </a>
+                    
+                    <a href="#" class="nav-icon">
+                        <span class="material-symbols-outlined">favorite</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div>
+        <img src="assets/images/book-banner-MR.webp" alt="Banner">
+    </div>
+    
+    <!-- BRAND NAVBAR -->
+    <nav class="maybelline-navbar navbar navbar-expand-lg bg-white px-4">
+        <div class="container-fluid">
+            
+            <div class="mercedesR-logo navbar-brand">
+                <img src="assets/images/mercedes-ron.jpg" alt="Mercedes RonLogo">
+                
+                <div class="maybelline-brand-info">
+                    <div class="maybelline-name-row">
+                        <span class="maybelline-brand-name">Mercedes Ron</span>
+                        <span class="material-symbols-outlined maybelline-verified">verified</span>
+                    </div>
+                    
+                    <button class="btn maybelline-follow-btn" id="followBtn">
+                        Follow
+                    </button>
+                </div>
+            </div> 
+            
+            <button class="maybelline-toggler navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#maybellineNavbar"
+            aria-controls="maybellineNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="maybellineNavbar">
+            <ul class="navbar-nav d-flex align-items-center ms-auto gap-3 list-unstyled">
+                <li class="nav-item dropdown maybelline-dropdown">
+                    <a class="nav-link dropdown-toggle maybelline-all-btn d-flex align-items-center"
+                    href="#" role="button" data-bs-toggle="dropdown">
+                    Books
+                </a>
+                
+                <ul class="dropdown-menu maybelline-dropdown-menu">
+                    <li><h6 class="dropdown-header">Trending</h6></li>
+                    <li><a class="dropdown-item" href="lists.html">Best Sellers</a></li>
+                    <li><a class="dropdown-item" href="images.html">New Releases</a></li>
+                    <li><a class="dropdown-item" href="#">All Books</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link maybelline-nav-link" href="">New</a>
+            </li>
+        </ul>
+        
+        <form class="maybelline-search" role="search">
+            <div class="search-wrapper">
+                <span class="material-symbols-outlined search-icon">search</span>
+                <input class="form-control maybelline-search-bar" type="search" placeholder="Search Maybelline">
+            </div>
+        </form>
+    </div>
+</div>
+</nav>
+
+
+<!-- About -->
+<h5 class="About-title">About the Author</h5>
+
+<div class="content-block">
+    <div class="text-content">
+        <p>
+            The bestselling author Mercedes Ron, who comes from Buenos Aires, achieved a worldwide success with her debut 'Culpa Mía' (My Fault), which went viral on TikTok, has now been published in 23 countries, and broke records worldwide with the film adaptations on Amazon Prime Video. The trilogy was initially published on Wattpad, where it was read millions of times. The Culpa Mía series stormed the SPIEGEL and..."This appears to be about Mercedes Ron's popular "My Fault" (Culpa Mía) series.
+        </p>
+    </div>
+    
+    <div class="image-content-MR">
+        <img src="assets/images/mercedes-ron.jpg" alt="Image">
+    </div>
+</div>
+</div>
+
+
+
+<!-- books-->
+
+<h5 class="interesting-finds">Most Popular</h5>
+
+
+<div class="items-card">
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Your-Fault.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Your Fault (Deluxe Edition): Book 2 in t...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€8.82</p>
+                    <p class="old-price">€15.99</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Tell-me-in-secret.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Tell Me In Secret - Mercedes Ron</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€16.99</p>
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Tell-Me-Softly.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Tell Me Softly - Mercedes Ron</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€10.99</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Our-Fault-Culpable.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Our Fault (Culpable)</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€8.33</p>
+                    <p class="old-price">€14.70</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Tell-Me-With-Kisses-Mercedes-Ron.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Tell Me With Kisses - Mercedes Ron</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€16.99</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/my-your-our-books.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Culpable Series 3 Books Collection Set By...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€55.08</p>
+                    <p class="old-price">€65.30</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    
+    
+    
+</div>
+
+</div>
+
+<!-- 2nd section of items -->
+
+<div class="items-card-row2">
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/My-Fault-Deluxe-Edition.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">My Fault (Deluxe Edition): The Beloved YA Enemies...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€9.30</p>
+                    <p class="old-price">€14.70</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Drawn-Together.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Drawn Together (Spanish) - Mercedes Ron</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€16.68</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Culpa-Nuestra-Our-Fault.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Culpa Nuestra - Our Fault, Mercedes Ron</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€15.99</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Tell-Me-With-Kisses-Mercedes-Ron.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Tell Me With Kisses - Mercedes Ron</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€16.90</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Tell-me-in-secret.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Tell Me In Secret - Mercedes Ron</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€16.99</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Culpa-Tuya-Deine-Schuld.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Culpa Tuya - Deine Schuld, Mercedes Ron</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€10.90</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+</div>
+
+</div>
+
+
+<!-- Latest releases -->
+
+<h5 class="interesting-finds">Latest Releases</h5>
+
+
+<div class="items-card">
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/My-Fault-Deluxe-Edition.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">My Fault (Deluxe Edition): The Beloved YA Enemies...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€9.90</p>
+                    <p class="old-price">€14.70</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Your-Fault.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Your Fault (Deluxe Edition): Book 2 in t...</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€8.82</p>
+                    <p class="old-price">€15.99</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Our-Fault-Culpable.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Our Fault (Culpable)</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€8.33</p>
+                    <p class="old-price">€14.70</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a href="productYourFault.html" class="text-decoration-none text-dark">
+        <div class="card">
+            <img src="assets/images/Drawn-Together.jpg" class="card-img-top" alt="Google Pixel 10">
+            <div class="card-body">
+                <p class="card-text">Drawn Together (Spanish) - Mercedes Ron</p>
+                
+                <div class="price-box">
+                    <p class="current-price">€16.99</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+</div>
+
+<!-- Similar authors -->
+
+<h5 class="interesting-finds">Similar Authors</h5>
+
+<div class="circle-row">
+    
+    <div class="circle-item">
+        <img src="assets/images/Ana-Huang.jpeg" alt="">
+        <p>Ana Huang</p>
+    </div>
+    
+    <div class="circle-item">
+        <img src="assets/images/Chloe-Walsh.avif" alt="">
+        <p>Chloe Walsh</p>
+    </div>
+    
+    <div class="circle-item">
+        <img src="assets/images/Elle-Kennedy.jpg" alt="">
+        <p>Elle Kennedy</p>
+    </div>
+    
+    <div class="circle-item">
+        <img src="assets/images/Mona-Kasten.jpeg" alt="">
+        <p>Mona Kasten</p>
+    </div>
+    
+    <div class="circle-item">
+        <img src="assets/images/Liz-Tomford.jpeg" alt="">
+        <p>Liz Tomford</p>
+    </div>
+    
+</div>
+
+
+<!-- Footer -->
+<footer class="main-footer">
+    <div class="footer-content">
+        
+        <div class="footer-section">
+            <h4>Get To Know Us</h4>
+            <p>About Us</p>
+            <p>Careers</p>
+            <p>Press Releases</p>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Make Money with Us</h4>
+            <p>Sell on Amazon Business</p>
+            <p>Sell on Amazon Handmade</p>
+            <p>Amazon Pay</p>
+            <p>Advertise your product</p>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Amazon Payment Methods</h4>
+            <p>Amazon Visa</p>
+            <p>Shop with points</p>
+            <p>Gift Cards</p>
+            <p>Monthly Invoice</p>
+            <p>Top up account</p>
+            <p>Top up account in store</p>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Amazon Managing</h4>
+            <p>Track packages</p>
+            <p>View orders</p>
+            <p>Delivery rates & policies</p>
+            <p>Amazon Prime</p>
+            <p>Returns and replacements</p>
+            <p>Recycling</p>
+            <p>Cancel contracts</p>
+            <p>Manage your contents & Devices</p>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>Conditions of use</p>
+        <p>Privacy Notice</p>
+        <p>Interest-Based Ads Notice</p>
+        <p>© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+    </div>
+</footer>
+
+<script src="assets/script/bootstrap.bundle.min.js"></script>
+<script src="assets/script/amazonIndex.js"></script>
+
+</body>
+</html>

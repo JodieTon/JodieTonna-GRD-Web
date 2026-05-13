@@ -114,3 +114,18 @@ Offers Opt-in: ${offers}`;
         `mailto:hello@website.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 });
 
+//price slider
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const slider = document.getElementById("priceRange");
+    const maxValue = document.getElementById("maxValue");
+
+    slider.addEventListener("input", function () {
+        maxValue.textContent = "€" + this.value;
+    });
+
+});
+
+
+
