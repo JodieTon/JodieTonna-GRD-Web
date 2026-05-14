@@ -228,7 +228,7 @@ document.querySelector(".move-all-cart").addEventListener("click", function () {
 
 
 
-// basket button
+// fav button
 
 function showCartPopup(message) {
     document.getElementById("cart-popup-text").textContent = message;
@@ -257,4 +257,30 @@ document.addEventListener("click", function(e) {
         // popup instead of alert
         showCartPopup(`${name} added to cart`);
     }
+});
+
+// basket button
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const slider = document.getElementById("slider");
+    const maxValue = document.getElementById("maxValue");
+
+    if (slider && maxValue) {
+        slider.addEventListener("input", function () {
+            maxValue.textContent = "€" + this.value;
+        });
+    }
+
+    // DELETE ITEM FROM BASKET
+    document.addEventListener("click", function (e) {
+        const deleteIcon = e.target.closest(".delete-icon");
+        if (!deleteIcon) return;
+
+        const card = deleteIcon.closest(".box-basket");
+        if (card) {
+            card.remove();
+        }
+    });
+
 });
