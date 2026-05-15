@@ -257,7 +257,7 @@ input.form-control.search-bar:focus {
 
 .navicons {
     font-size: 24px;
-    transition: #000000 0.2s ease;
+    transition: 0.2s ease
 }
 
 .nav-icon .material-symbols-outlined {
